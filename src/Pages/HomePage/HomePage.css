@@ -1,0 +1,232 @@
+body{
+    background-image: url('./img/bckg.jpg');
+    background-size: cover;
+}
+
+.home-page-container{
+    width: 100% !important;
+    height: 100% !important;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-pannel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    height: 650px !important;
+    margin: 10px;
+    color: white;
+    background-color: rgba(49, 66, 90, 0.521);
+    -webkit-box-shadow: 5px 5px 11px -3px rgba(207,207,207,0.2);
+    -moz-box-shadow: 5px 5px 11px -3px rgba(207,207,207,0.2);
+    box-shadow: 5px 5px 11px -3px rgba(207,207,207,0.2); 
+}
+
+.home-page-body-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100% ;
+    height: 100%;
+    margin: 10px;
+    color: white;
+}
+
+.my-photo-container{
+    margin: 20px;
+    width: 350px;
+}
+
+.my-photo{
+
+    width: 250px;
+    height: 330px;
+}
+
+.home-page-text-container{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: left; */
+    width: 350px;
+    height: 160px;
+}
+
+.home-page-title{
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 3px;
+}
+
+.home-page-my-name{
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.home-page-description{
+    font-size: 28px;
+}
+
+.social-media-container{
+    cursor: pointer;
+    margin: 0px;
+}
+
+.facebook-logo{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.facebook-logo:hover, .instagram-logo:hover, .github-logo:hover, .linkedin-logo:hover{
+    width: 40px;
+    height: 40px;
+    transition: all 0.4s ease;
+}
+
+.instagram-logo{
+    width: 31px;
+    height: 31px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.github-logo{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.linkedin-logo{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.home-container{
+    width: 220px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.home-icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 25px;
+}
+
+.home-text{
+    font-weight: 600;
+    font-size: 25px;
+    width: 70px;
+}
+
+.about-container{
+    margin: 10px;
+    margin-top: 20px;
+    width: 220px;
+    display: flex;
+    justify-content: left;
+    align-items: center; 
+    cursor: pointer;
+}
+
+.about-icon{
+    margin-right: 25px;
+    width: 60px;
+    height: 60px;  
+}
+
+.about-text{
+    font-weight: 600;
+    font-size: 25px;
+    width: 70px;
+}
+
+.skills-container{
+    margin: 10px;
+    margin-top: 20px;
+    width: 220px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    cursor: pointer;
+}
+
+.skills-icon{
+    margin-right: 25px;
+    width: 60px;
+    height: 60px;
+}
+
+.skills-text{
+    font-weight: 600;
+    font-size: 25px;
+    width: 70px;
+}
+
+.portfolio-container{
+    margin: 10px;
+    margin-top: 20px;
+    width: 220px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    cursor: pointer;
+}
+
+.portfolio-icon{
+    margin-right: 25px;
+    width: 60px;
+    height: 60px;
+}
+
+.portfolio-text{
+    font-weight: 600;
+    font-size: 25px;
+    width: 70px;
+}
+
+.contact-container{
+    margin: 10px;
+    margin-top: 20px;
+    width: 220px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    cursor: pointer;
+}
+
+.contact-icon{
+    margin-right: 25px;
+    width: 60px;
+    height: 60px;
+}
+
+.contact-text{
+    font-weight: 600;
+    font-size: 25px;
+    width: 70px;
+}
+
+.home-container:hover, .about-container:hover, .skills-container:hover, .portfolio-container:hover, .contact-container:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-pannel-footer{
+    font-size: 12px;
+    margin: 10px;
+    color: rgb(155, 146, 146);
+}
