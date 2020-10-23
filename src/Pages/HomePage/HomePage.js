@@ -1,16 +1,17 @@
 import React from 'react';
 import './HomePage.css';
+import {NavPanel} from '../../components/NavPanel/NavPanel';
 import myPhoto from './img/myPhoto.png';
 import facebook from './img/facebook.png';
 import instagram from './img/instagram.png';
 import github from './img/github.png';
 import linkedin from './img/linkedin.png';
-import home from './img/home.png';
-import about from './img/about.png';
-import skills from './img/skills.png';
-import portfolio from './img/portfolio.png';
-import contact from './img/contact.png';
-import {Link} from 'react-router-dom';
+// import home from './img/home.png';
+// import about from './img/about.png';
+// import skills from './img/skills.png';
+// import portfolio from './img/portfolio.png';
+// import contact from './img/contact.png';
+// import {Link} from 'react-router-dom';
 // import ReactDOM from 'react-dom';
 
 
@@ -18,9 +19,9 @@ import {Link} from 'react-router-dom';
 export function HomePage(){
     return ( 
         <div className="home-page-container">
-            <div className="nav-pannel">
-                <div className="nav-pannel-title"></div>
-                <div className="nav-pannel-content">
+            {/* <div className="nav-panel">
+                <div className="nav-panel-title"></div>
+                <div className="nav-panel-content">
                     <Link to="/">
                         <div className="home-container">
                             
@@ -49,8 +50,9 @@ export function HomePage(){
                     </div>
                    
                 </div>
-                <div className="nav-pannel-footer">&copy; 2020 Alexandra Paun</div>
-            </div>
+                <div className="nav-panel-footer">&copy; 2020 Alexandra Paun</div>
+            </div> */}
+            <NavPanel />
             <div className="home-page-body-container">
                 <div className="my-photo-container">
                     <img src={myPhoto} alt="me" className="my-photo"></img>
