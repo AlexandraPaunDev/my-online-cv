@@ -1,0 +1,69 @@
+.portfolio-page-container{
+    /* width: 100% !important;
+    height: 100% !important; */
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolio-page-body-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100% ;
+    height: 650px;
+    margin: 10px;
+    color: white;
+}
+
+.portfolio-photos-container{
+    widows: 100%;
+    height: 645px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.portfolio-title{
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 70px;
+    font-size: 29px;
+    font-weight: 700;
+    margin-top: 60px;
+    /* background-color: hotpink; */
+}
+
+.first-p, .second-p,  .third-p{
+    margin: 15px;
+    width: 370px;
+    height: 300px;
+    border-radius: 6px;
+}
+
+.photo-1, .photo-2, .photo-3{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    /* background-color: rgb(109, 102, 102); */
+    margin: 10px;
+    width: 400px;
+    height: 500px;
+}
+.photo-button{
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(78, 75, 75);
+    height: 40px;
+    width: 145px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: none;
+}
