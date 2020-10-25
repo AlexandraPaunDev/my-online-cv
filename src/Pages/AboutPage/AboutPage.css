@@ -6,9 +6,6 @@
 }
 
 .about-page-body-container{
-    
-    color: rgb(178, 240, 10);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
