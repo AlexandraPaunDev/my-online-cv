@@ -26,7 +26,7 @@ body{
 }
 
 .my-photo{
-
+    border-radius: 10px;
     width: 250px;
     height: 330px;
 }

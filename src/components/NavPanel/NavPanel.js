@@ -7,7 +7,7 @@ import skills from './Panel-img/skills.png';
 import portfolio from './Panel-img/portfolio.png';
 import contact from './Panel-img/contact.png';
 import {Link} from 'react-router-dom';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 
 export function NavPanel (){
     return(
