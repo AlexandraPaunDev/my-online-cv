@@ -18,7 +18,7 @@ export function SkillsPage(){
             <div className="skills-page-body-container">
                 <div className="study-container">
                     <h2 className="study-container-title">What I studied</h2>
-                    <img src={study} className="study-icon" alt="study-photo"></img>
+                    <img src={study} className="study-icon" alt="study"></img>
                     <div className="study-content">
                         <p className="p1"><b>HTML and CSS:</b> how to build a responsive UI</p>
                         <p className="p2"><b>JavaScript:</b> how to use variables, primitive types, functions, <b>DOM & AJAX</b></p>

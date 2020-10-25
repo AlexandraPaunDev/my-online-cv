@@ -1,9 +1,8 @@
 import React from 'react';
 import { NavPanel } from '../../components/NavPanel/NavPanel';
 import './AboutPage.css';
-// import ReactDOM from 'react-dom';
 import aboutMe from './aboutMe.png'
-import { ContactForm } from '../../components/ContactForm/ContactForm';
+
 
 
 export function AboutPage(){
