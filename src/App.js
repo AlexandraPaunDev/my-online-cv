@@ -11,6 +11,9 @@ import {
   Route,
   Link, BrowserRouter
 } from 'react-router-dom';
+import { SkillsPage } from './Pages/SkillsPage/SkillsPage';
+import { PortfolioPage } from './Pages/PortfolioPage/PortfolioPage';
+import { ContactPage } from './Pages/ContactPage/ContactPage';
 
 function App() {
   return (
@@ -22,6 +25,15 @@ function App() {
           </Route>
           <Route path="/about">
             <AboutPage />
+          </Route>
+          <Route path="/skills">
+            <SkillsPage />
+          </Route>
+          <Route path="/portfolio">
+            <PortfolioPage />
+          </Route>
+          <Route path="/contact">
+            <ContactPage />
           </Route>
         </Switch>
       </div>
