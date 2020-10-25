@@ -1,7 +1,7 @@
 import React from 'react';
 import './HomePage.css';
 import {NavPanel} from '../../components/NavPanel/NavPanel';
-import myPhoto from './img/myPhoto.png';
+import MyPhoto from './img/MyPhoto.jpeg'
 import facebook from './img/facebook.png';
 import instagram from './img/instagram.png';
 import github from './img/github.png';
@@ -22,7 +22,7 @@ export function HomePage(){
             <NavPanel />
             <div className="home-page-body-container">
                 <div className="my-photo-container">
-                    <img src={myPhoto} alt="me" className="my-photo"></img>
+                    <img src={MyPhoto} className="my-photo" alt="me" ></img>
                 </div>
                 <div className="home-page-text-container">
                     <div className="home-page-title">Hello, my name is </div>
