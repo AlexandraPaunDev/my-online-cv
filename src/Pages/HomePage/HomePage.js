@@ -19,39 +19,6 @@ import linkedin from './img/linkedin.png';
 export function HomePage(){
     return ( 
         <div className="home-page-container">
-            {/* <div className="nav-panel">
-                <div className="nav-panel-title"></div>
-                <div className="nav-panel-content">
-                    <Link to="/">
-                        <div className="home-container">
-                            
-                                <img src={home} alt="home" className="home-icon"></img>
-                            
-                            <p className="home-text">Home</p>
-                        </div>
-                    </Link>  
-                    <Link to="/about">
-                        <div className="about-container">
-                            <img src={about} className="about-icon" alt="about"></img>
-                            <p className="about-text">About</p>
-                        </div>
-                    </Link>
-                    <div className="skills-container">
-                        <img src={skills} className="skills-icon" alt="skills"></img>
-                        <p className="skills-text">Skills</p>
-                    </div>
-                    <div className="portfolio-container">
-                        <img src={portfolio} className="portfolio-icon" alt="portfolio"></img>
-                        <p className="portfolio-text">Portfolio</p>
-                    </div>
-                    <div className="contact-container">
-                        <img src={contact} className="contact-icon" alt="contact"></img>
-                        <p className="contact-text">Contact</p>
-                    </div>
-                   
-                </div>
-                <div className="nav-panel-footer">&copy; 2020 Alexandra Paun</div>
-            </div> */}
             <NavPanel />
             <div className="home-page-body-container">
                 <div className="my-photo-container">
@@ -62,7 +29,7 @@ export function HomePage(){
                     <div className="home-page-my-name">Alexandra Paun </div>
                     <div className="home-page-description">I'm a Web Developer</div>
                 </div>
-                
+                 
                 
                 <div className="social-media-container">
                     <a href="https://www.facebook.com/liss.alehandra" target="_blank" rel="noopener noreferrer">           

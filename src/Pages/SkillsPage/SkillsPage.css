@@ -1,0 +1,83 @@
+.skills-page-container{
+    width: 100% !important;
+    height: 100% !important;
+    display: flex;
+    flex-direction: row;
+}
+
+.skills-page-body-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+}
+
+.study-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    color: white;
+}
+.study-content{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.study-container-title{
+    margin: 10px;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.study-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 160px;
+    margin: 10px;
+}
+
+.my-skills-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 10px;
+    width: 1165px;
+    height: 150px;
+}
+
+.my-skills-title{
+    margin: 15px;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.icon-skills{
+    display: flex;
+    flex-direction: row;
+}
+
+.html-icon, .css-icon, .javascript-icon, .react-icon{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.html-icon:hover, .css-icon:hover, .javascript-icon:hover, .react-icon:hover{
+    width: 65px;
+    height: 65px;
+    transition: all 0.4s ease;
+}
+
+
