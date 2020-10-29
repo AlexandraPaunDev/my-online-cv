@@ -8,7 +8,7 @@ import aboutMe from './aboutMe.png'
 export function AboutPage(){
     return(
             <div className="about-page-container">
-                <NavPanel />
+                <NavPanel /> 
                 <div className="about-page-body-container">
                     <div className="about-title-container">
                         <h1 className="about-title">ABOUT <i>me</i></h1>

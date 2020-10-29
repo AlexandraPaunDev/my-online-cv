@@ -7,21 +7,90 @@
 
 .contact-page-body-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    width:100% ;
+    width: 100%;
     height: 650px;
     margin: 10px;
     color: white;
 
+}
+
+.contact-first-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 430px;
+    width: 350px;
+    margin: 10px;
+    border-right: 2px solid white;
+    
+    /* background-color: darkviolet; */
+    
+}
+
+.contact-name-container, 
+.contact-address-container,
+.contact-phone-container,
+.contact-email-container{
+    display: flex;
+    flex-direction: row;
+    width: 310px;
+    padding: 5px;
+    /* background-color: forestgreen; */
+}
+
+.contact-name-description,
+.contact-address-description,
+.contact-phone-description,
+.contact-email-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    /* background-color: grey; */
+    margin: 5px;
+    width: 250px;
+}
+
+.nameico-container,
+.addressico-container,
+.phoneico-container,
+.emailico-container{
+    margin: 5px;
+    width: 60px;
+    /* background-color: gold; */
+}
+
+.name-name,
+.address-address,
+.phone-phone,
+.email-email{
+    font-weight: 700;
+}
+
+.contact-address-description{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-second-container{
+    /* background-color: crimson; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 550px;
 }
 .contact-title{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 900px;
+    width: 600px;
     margin: 10px;
     font-size: 40px;
 }
@@ -37,4 +106,451 @@
 .contact-page-second-text{
     margin-bottom: 10px;
     font-size: 20px;
+}
+
+
+@media  screen and (max-width: 1245px){
+
+    .contact-page-container{
+    display: flex;
+    flex-direction: row; 
+    
+    }  
+
+    .contact-page-body-container{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    width: 900px;
+    height: 680px;
+    color: white;
+
+}
+
+    .contact-first-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 350px;
+    margin: 10px;
+    border-right: 2px solid white;
+    
+    /* background-color: darkviolet; */
+    
+}
+
+    .contact-name-container, 
+    .contact-address-container,
+    .contact-phone-container,
+    .contact-email-container{
+    display: flex;
+    flex-direction: row;
+    width: 310px;
+    padding: 5px;
+    /* background-color: forestgreen; */
+    }
+
+    .contact-name-description,
+    .contact-address-description,
+    .contact-phone-description,
+    .contact-email-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    /* background-color: grey; */
+    margin: 5px;
+    width: 250px;
+    }
+
+    .nameico-container,
+    .addressico-container,
+    .phoneico-container,
+    .emailico-container{
+    margin: 5px;
+    width: 60px;
+    /* background-color: gold; */
+    }
+
+    .name-name,
+    .address-address,
+    .phone-phone,
+    .email-email{
+    font-weight: 700;
+    }
+
+    .contact-address-description{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .contact-second-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 400px;
+    }
+    .contact-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 10px;
+    font-size: 30px;
+    }
+
+    .contact-page-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    width: 380px;
+    margin-top: 10px;
+    }
+
+    .contact-page-second-text{
+    margin-bottom: 10px;
+    font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width:1080px){
+    .contact-page-container{
+        display: flex;
+        flex-direction: row; 
+        
+    }  
+    
+    .contact-page-body-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 700px;
+        height: 680px;
+        color: white;
+    
+    }
+    
+    .contact-first-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 450px;
+        width: 300px;
+        margin: 10px;
+        border-right: 2px solid white;
+        
+        /* background-color: darkviolet; */
+        
+    }
+    
+    .contact-name-container, 
+    .contact-address-container,
+    .contact-phone-container,
+    .contact-email-container{
+        display: flex;
+        flex-direction: row;
+        width: 310px;
+        padding: 5px;
+        /* background-color: forestgreen; */
+    }
+    
+    .contact-name-description,
+    .contact-address-description,
+    .contact-phone-description,
+    .contact-email-description{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        /* background-color: grey; */
+        margin: 5px;
+        width: 250px;
+    }
+    
+    .nameico-container,
+    .addressico-container,
+    .phoneico-container,
+    .emailico-container{
+        margin: 5px;
+        width: 60px;
+        /* background-color: gold; */
+    }
+    
+    .name-name,
+    .address-address,
+    .phone-phone,
+    .email-email{
+        font-weight: 700;
+    }
+    
+    .contact-address-description{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-second-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        width: 400px;
+    }
+    .contact-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        font-size: 25px;
+    }
+    
+    div.contact-page-text{
+        display: flex;
+        flex-direction: column;
+        font-size: 17px;
+        width: 280px;
+        margin-top: 10px;
+    }
+    
+    .contact-page-second-text{
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 960px){
+
+    .contact-page-container{
+        display: flex;
+        
+    }
+    .contact-page-body-container{
+        width: 580px;
+        margin-left: 25px;
+
+    }
+
+    .contact-first-container{
+        width: 280px;
+        height: 380px;
+        margin-bottom: 90px;
+    }
+
+}
+
+@media screen and (max-width: 960px){
+    .contact-page-container{
+        display: flex;
+    }
+
+    .contact-page-body-container{
+        width: 480px;
+    }
+
+    .contact-first-container{
+        width: 240px;
+        border: none;
+        margin-left: 70px;
+    }
+
+    .contact-second-container{
+        width: 300px;
+        
+    }
+
+    .contact-title{
+        width: 250px;
+        font-size: 18px;
+    }
+
+    div.contact-page-text{
+        font-size: 14px;
+    }
+
+    div.contact-page-second-text{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 860px){
+    .contact-page-container{
+        display: flex;
+    }
+    
+    .contact-page-body-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-first-container{
+        width: 300px;
+        height: 250px;
+        border: none;
+        margin-bottom: 0px;
+    }
+
+    .contact-second-container{
+        height: 380px;
+        width: 400px;
+    }
+
+    .contact-title{
+        width: 250px;
+        font-size: 20px;
+        margin-top: 160px;
+    }
+
+    .my-name,
+    .my-address,
+    .my-phone,
+    .my-email{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:720px){
+
+    .contact-page-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-page-body-container{
+        display: flex;
+        flex-direction: row;
+        height: 550px;
+    }
+
+    .contact-first-container{
+        width: 250px;
+        margin-left: 130px;
+    }
+}
+
+@media screen and (max-width:620px){
+    .contact-page-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-page-body-container{
+        display: flex;
+        flex-direction: row;
+        height: 550px;
+    }
+
+    .contact-second-container{
+        width: 280px;
+    }
+
+    .contact-first-container{
+        width: 250px;
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .contact-page-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-page-body-container{
+        display: flex;
+        flex-direction: row;
+        height: 550px;
+    }
+
+    .contact-second-container{
+        width: 250px;
+    }
+
+    .contact-first-container{
+        width: 250px;
+        margin-left: 70px;
+    }
+}
+
+@media screen and (max-width: 590px){
+    .contact-page-container{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .contact-page-body-container{
+        display: flex;
+        flex-direction: column;
+        height: 550px;
+    }
+
+    .form-container{
+        width: 320px;
+        height: 300px;
+    }
+
+    .contact-title{
+        margin-top: 35px;
+    }
+
+    .contact-first-container{
+        height: 200px;
+        margin-top:-10px;
+    }
+
+    div.contact-page-text{
+        display: none;
+    }
+
+    .contact-name-container,
+    .contact-address-container,
+    .contact-phone-container,
+    .contact-email-container{
+        height: 40px;
+        width: 320px;
+        margin: 5px;
+    }
+
+}
+
+@media screen and (max-width: 460px){
+    .contact-page-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-page-body-container{
+        display: flex;
+        flex-direction: column;
+        height: 550px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .contact-page-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-page-body-container{
+        display: flex;
+        flex-direction: column;
+        height: 550px;
+        width: 350px;
+    }
+
+    .contact-page-second-text{
+        display: none;
+    }
 }
