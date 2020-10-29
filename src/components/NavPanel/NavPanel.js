@@ -9,7 +9,7 @@ import contact from './Panel-img/contact.png';
 import {Link} from 'react-router-dom';
 // import ReactDOM from 'react-dom';
 
-export function NavPanel (){
+export function NavPanel (){ 
     return(
        
             <div className="nav-panel">

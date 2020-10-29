@@ -11,7 +11,7 @@ import study from './img/study.png'
 
 import './SkillsPage.css';
 
-export function SkillsPage(){
+export function SkillsPage(){ 
     return(
         <div className="skills-page-container">
             <NavPanel />

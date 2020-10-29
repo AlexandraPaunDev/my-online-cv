@@ -14,7 +14,7 @@ import linkedin from './img/linkedin.png';
 // import {Link} from 'react-router-dom';
 // import ReactDOM from 'react-dom';
 
-
+  
 
 export function HomePage(){
     return ( 

@@ -2,6 +2,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* align-items: center; */
+}
+
+.nav-panel-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 280px;
     height: 650px !important;
@@ -33,7 +40,6 @@
     font-weight: 600;
     font-size: 25px;
     width: 70px;
-  
 }
 
 .about-container{
@@ -125,7 +131,11 @@
     width: 70px;
 }
 
-.home-container:hover, .about-container:hover, .skills-container:hover, .portfolio-container:hover, .contact-container:hover{
+.home-container:hover, 
+.about-container:hover,
+ .skills-container:hover, 
+ .portfolio-container:hover, 
+ .contact-container:hover{
     border: 1px solid white;
     border-radius: 5px;
     padding: 5px;
@@ -140,4 +150,78 @@
 .nav-links{
     text-decoration: none;
     color: white;
+}
+
+
+@media screen and (max-width:720px){
+    .nav-panel{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* align-items: center; */
+    }
+
+    .nav-panel-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 680px;
+        height: 80px !important;
+        margin: 10px;
+        color: white;
+        background-color: rgba(49, 66, 90, 0.521);
+        -webkit-box-shadow: 5px 5px 11px -3px rgba(207,207,207,0.2);
+        -moz-box-shadow: 5px 5px 11px -3px rgba(207,207,207,0.2);
+        box-shadow: 5px 5px 11px -3px rgba(207,207,207,0.2); 
+    }
+
+    .home-container,
+    .about-container,
+    .skills-container,
+    .portfolio-container,
+    .contact-container{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    .home-icon,
+    .about-icon,
+    .skills-icon,
+    .portfolio-icon,
+    .contact-icon{
+        width: 40px;
+        height: 40px;
+        margin-right: 0px;
+    }
+    
+    .home-text,
+    .about-text,
+    .skills-text,
+    .portfolio-text,
+    .contact-text{
+        display: none;
+    }
+
+    .nav-panel-footer{
+        display: none;
+    }
+    
+    
+}
+
+@media screen and (max-width:375px){
+    .home-container:hover, 
+    .about-container:hover,
+    .skills-container:hover, 
+    .portfolio-container:hover, 
+    .contact-container:hover{
+        padding: 5px;
+        border: none;
+    }
 }
