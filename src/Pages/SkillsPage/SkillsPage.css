@@ -23,6 +23,7 @@
     margin: 10px;
     color: white;
 }
+
 .study-content{
     display: flex;
     flex-direction: column;
@@ -53,7 +54,6 @@
     align-items: center;
     color: white;
     margin: 10px;
-    /* width: 1165px; */
     width: 500px;
     height: 150px;
 }
@@ -79,12 +79,12 @@
     display: flex;
     flex-direction: column;
 }
+
 .html-icon:hover, .css-icon:hover, .javascript-icon:hover, .react-icon:hover{
     width: 65px;
     height: 65px;
     transition: all 0.4s ease;
 }
-
 
 @media screen and (max-width: 1290px){
     .skills-page-container{
@@ -161,6 +161,7 @@
         width: 400px;
         height: 500px;
     }
+
     .study-content{
         display: flex;
         flex-direction: column;
@@ -177,11 +178,9 @@
         width: 120px;
         height: 100px;
     }
-
 }
 
 @media screen and (max-width: 800px){
-
     .skills-page-container{
         width: 100% !important;
         height: 100% !important;
@@ -196,8 +195,7 @@
         align-items: center;
         width: 600px;
         height: 700px;
-        margin: 0px;
-      
+        margin: 0px;  
     }
 
     .study-container{
@@ -230,7 +228,6 @@
     .my-skills-container{
         width: 300px;
     }
-
 }
 
 @media screen and (max-width: 750px){
@@ -248,8 +245,7 @@
         align-items: center;
         width: 600px;
         height: 700px;
-        margin: 0px;
-      
+        margin: 0px;    
     }
 
     .study-container{
@@ -262,6 +258,7 @@
         width: 400px;
         height: 400px;
     }
+
     .study-content{
         display: flex;
         flex-direction: column;
@@ -280,22 +277,21 @@
     }
 
     .my-skills-title{
-    margin: 15px;
-    font-size: 35px;
-    font-weight: 700;
+         margin: 15px;
+        font-size: 35px;
+        font-weight: 700;
     }
     
     .html-icon, 
     .css-icon, 
     .javascript-icon, 
     .react-icon{
-    width: 40px;
-    height: 40px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
+        width: 40px;
+        height: 40px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
     }
-
 }
 
 @media screen and (max-width: 720px){
@@ -304,8 +300,6 @@
         height: 100% !important;
         display: flex;
         flex-direction: column;
-        /* justify-content: center;
-        align-items: center; */
     }
 
     .skills-page-body-container{
@@ -328,6 +322,7 @@
         width: 600px;
         height: 400px;
     }
+
     .study-content{
         display: flex;
         flex-direction: column;
@@ -350,20 +345,20 @@
     }
 
     .my-skills-title{
-    margin: 15px;
-    font-size: 35px;
-    font-weight: 700;
+        margin: 15px;
+        font-size: 35px;
+        font-weight: 700;
     }
     
     .html-icon, 
     .css-icon, 
     .javascript-icon, 
     .react-icon{
-    width: 40px;
-    height: 40px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
+        width: 40px;
+        height: 40px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -373,8 +368,6 @@
         height: 100% !important;
         display: flex;
         flex-direction: column;
-        /* justify-content: center;
-        align-items: center; */
     }
 
     .skills-page-body-container{
@@ -397,6 +390,7 @@
         width: 600px;
         height: 400px;
     }
+
     .study-content{
         display: flex;
         flex-direction: column;
@@ -419,32 +413,29 @@
     }
 
     .my-skills-title{
-    margin: 15px;
-    font-size: 35px;
-    font-weight: 700;
+        margin: 15px;
+        font-size: 35px;
+        font-weight: 700;
     }
     
     .html-icon, 
     .css-icon, 
     .javascript-icon, 
     .react-icon{
-    width: 40px;
-    height: 40px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
+        width: 40px;
+        height: 40px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
     }
 }
 
 @media screen and (max-width: 595px){
-
     .skills-page-container{
         width: 100% !important;
         height: 100% !important;
         display: flex;
         flex-direction: column;
-        /* justify-content: center;
-        align-items: center; */
     }
 
     .skills-page-body-container{
@@ -467,6 +458,7 @@
         width: 500px;
         height: 400px;
     }
+
     .study-content{
         display: flex;
         flex-direction: column;
@@ -489,32 +481,29 @@
     }
 
     .my-skills-title{
-    margin: 15px;
-    font-size: 35px;
-    font-weight: 700;
+        margin: 15px;
+        font-size: 35px;
+        font-weight: 700;
     }
     
     .html-icon, 
     .css-icon, 
     .javascript-icon, 
     .react-icon{
-    width: 40px;
-    height: 40px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
+        width: 40px;
+        height: 40px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
     }
 }
 
 @media screen and (max-width: 550px){
-
     .skills-page-container{
         width: 100% !important;
         height: 100% !important;
         display: flex;
         flex-direction: column;
-        /* justify-content: center;
-        align-items: center; */
     }
 
     .skills-page-body-container{
@@ -537,6 +526,7 @@
         width: 500px;
         height: 400px;
     }
+
     .study-content{
         display: flex;
         flex-direction: column;
@@ -559,26 +549,24 @@
     }
 
     .my-skills-title{
-    margin: 15px;
-    font-size: 30px;
-    font-weight: 700;
+        margin: 15px;
+        font-size: 30px;
+        font-weight: 700;
     }
     
     .html-icon, 
     .css-icon, 
     .javascript-icon, 
     .react-icon{
-    width: 40px;
-    height: 40px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
+        width: 40px;
+        height: 40px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
     }
-
 }
 
 @media screen and (max-width: 520px){
-
     .skills-page-container{
         width: 100% !important;
         height: 100% !important;
@@ -606,6 +594,7 @@
         width: 450px;
         height: 400px;
     }
+
     .study-content{
         display: flex;
         flex-direction: column;
@@ -628,26 +617,24 @@
     }
 
     .my-skills-title{
-    margin: 15px;
-    font-size: 28px;
-    font-weight: 700;
+        margin: 15px;
+        font-size: 28px;
+        font-weight: 700;
     }
     
     .html-icon, 
     .css-icon, 
     .javascript-icon, 
     .react-icon{
-    width: 40px;
-    height: 40px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
+        width: 40px;
+        height: 40px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
     }
-
 }
 
 @media screen and (max-width: 460px){
-
     .skills-page-container{
         width: 100% !important;
         height: 100% !important;
@@ -675,6 +662,7 @@
         width: 420px;
         height: 380px;
     }
+
     .study-content{
         display: flex;
         flex-direction: column;
@@ -697,22 +685,21 @@
     }
 
     .my-skills-title{
-    margin: 15px;
-    font-size: 28px;
-    font-weight: 700;
+        margin: 15px;
+        font-size: 28px;
+        font-weight: 700;
     }
     
     .html-icon, 
     .css-icon, 
     .javascript-icon, 
     .react-icon{
-    width: 40px;
-    height: 40px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
+        width: 40px;
+        height: 40px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
     }
-
 }
 
 @media screen and (max-width: 435px){
@@ -743,6 +730,7 @@
         width: 380px;
         height: 380px;
     }
+
     .study-content{
         display: flex;
         flex-direction: column;
@@ -772,6 +760,7 @@
         height: 550px;
         margin: 0px; 
     }
+
     .study-container{
         display: flex;
         flex-direction: column;
@@ -822,7 +811,6 @@
       width: 80px;
       height: 80px;
     }
-
 }
 
 @media screen and (max-width: 385px){
@@ -842,6 +830,7 @@
         height: 550px;
         margin: 0px; 
     }
+
     .study-container{
         display: flex;
         flex-direction: column;
@@ -867,7 +856,6 @@
     .p1, .p2, .p3, .p4, .p5, .p6{
         width: 300px;
     }
-
 }
 
 @media screen and (max-width: 385px){
@@ -921,7 +909,6 @@
 }
 
 @media screen and (max-width: 375px){
-
     .study-container{
         display: flex;
         flex-direction: column;
@@ -981,7 +968,6 @@
 }
 
 @media screen and (max-width: 330px){
-
     .skills-page-container{
         width: 100% !important;
         height: 100% !important;
@@ -1019,7 +1005,6 @@
         font-size: 15px;
         width: 200px;
     }
-
 }
 
 

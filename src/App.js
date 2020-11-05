@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import { HomePage } from './Pages/HomePage/HomePage';
 import {AboutPage} from './Pages/AboutPage/AboutPage';
-// import {NavPanel} from './components/NavPanel/NavPanel';
 
 
 import { 

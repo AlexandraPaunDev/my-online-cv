@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
 }
 
 .nav-panel-content{
@@ -147,6 +146,7 @@
     margin: 10px;
     color: rgb(155, 146, 146);
 }
+
 .nav-links{
     text-decoration: none;
     color: white;
@@ -158,7 +158,6 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        /* align-items: center; */
     }
 
     .nav-panel-content{
@@ -210,9 +209,7 @@
 
     .nav-panel-footer{
         display: none;
-    }
-    
-    
+    } 
 }
 
 @media screen and (max-width:375px){

@@ -1,5 +1,4 @@
 
-
 #contact-form {
     margin:10px;
     width: 300px;
@@ -38,12 +37,10 @@ form {
 
 .formInput:-ms-input-placeholder {
     color: white;
-
 }  
 
 .formInput::-ms-input-placeholder {
-    color: white;
-    
+    color: white;   
 }
 
 .submit-btn {

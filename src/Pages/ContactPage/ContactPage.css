@@ -14,7 +14,6 @@
     height: 650px;
     margin: 10px;
     color: white;
-
 }
 
 .contact-first-container{
@@ -25,10 +24,7 @@
     height: 430px;
     width: 350px;
     margin: 10px;
-    border-right: 2px solid white;
-    
-    /* background-color: darkviolet; */
-    
+    border-right: 2px solid white;    
 }
 
 .contact-name-container, 
@@ -39,7 +35,6 @@
     flex-direction: row;
     width: 310px;
     padding: 5px;
-    /* background-color: forestgreen; */
 }
 
 .contact-name-description,
@@ -50,7 +45,6 @@
     flex-direction: column;
     justify-content: left;
     align-items: flex-start;
-    /* background-color: grey; */
     margin: 5px;
     width: 250px;
 }
@@ -61,7 +55,6 @@
 .emailico-container{
     margin: 5px;
     width: 60px;
-    /* background-color: gold; */
 }
 
 .name-name,
@@ -77,7 +70,6 @@
 }
 
 .contact-second-container{
-    /* background-color: crimson; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,6 +77,7 @@
     height: 550px;
     width: 550px;
 }
+
 .contact-title{
     display: flex;
     flex-direction: column;
@@ -108,123 +101,110 @@
     font-size: 20px;
 }
 
-
 @media  screen and (max-width: 1245px){
-
     .contact-page-container{
-    display: flex;
-    flex-direction: row; 
-    
+        display: flex;
+        flex-direction: row; 
     }  
 
     .contact-page-body-container{
-    display: flex;
-    flex-direction: row;
-    /* justify-content: center;
-    align-items: center; */
-    width: 900px;
-    height: 680px;
-    color: white;
-
-}
+        display: flex;
+        flex-direction: row;
+        width: 900px;
+        height: 680px;
+        color: white;
+    }
 
     .contact-first-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 450px;
-    width: 350px;
-    margin: 10px;
-    border-right: 2px solid white;
-    
-    /* background-color: darkviolet; */
-    
-}
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 450px;
+        width: 350px;
+        margin: 10px;
+        border-right: 2px solid white;
+    }
 
     .contact-name-container, 
     .contact-address-container,
     .contact-phone-container,
     .contact-email-container{
-    display: flex;
-    flex-direction: row;
-    width: 310px;
-    padding: 5px;
-    /* background-color: forestgreen; */
+        display: flex;
+        flex-direction: row;
+        width: 310px;
+        padding: 5px;
     }
 
     .contact-name-description,
     .contact-address-description,
     .contact-phone-description,
     .contact-email-description{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: flex-start;
-    /* background-color: grey; */
-    margin: 5px;
-    width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        margin: 5px;
+        width: 250px;
     }
 
     .nameico-container,
     .addressico-container,
     .phoneico-container,
     .emailico-container{
-    margin: 5px;
-    width: 60px;
-    /* background-color: gold; */
+        margin: 5px;
+        width: 60px;
     }
 
     .name-name,
     .address-address,
     .phone-phone,
     .email-email{
-    font-weight: 700;
+        font-weight: 700;
     }
 
     .contact-address-description{
-    display: flex;
-    flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
 
     .contact-second-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-    width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        width: 400px;
     }
+
     .contact-title{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    margin: 10px;
-    font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        margin: 10px;
+        font-size: 30px;
     }
 
     .contact-page-text{
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;
-    width: 380px;
-    margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        width: 380px;
+        margin-top: 10px;
     }
 
     .contact-page-second-text{
-    margin-bottom: 10px;
-    font-size: 20px;
+        margin-bottom: 10px;
+        font-size: 20px;
     }
-
 }
 
 @media screen and (max-width:1080px){
     .contact-page-container{
         display: flex;
-        flex-direction: row; 
-        
+        flex-direction: row;    
     }  
     
     .contact-page-body-container{
@@ -235,7 +215,6 @@
         width: 700px;
         height: 680px;
         color: white;
-    
     }
     
     .contact-first-container{
@@ -246,10 +225,7 @@
         height: 450px;
         width: 300px;
         margin: 10px;
-        border-right: 2px solid white;
-        
-        /* background-color: darkviolet; */
-        
+        border-right: 2px solid white;        
     }
     
     .contact-name-container, 
@@ -260,7 +236,6 @@
         flex-direction: row;
         width: 310px;
         padding: 5px;
-        /* background-color: forestgreen; */
     }
     
     .contact-name-description,
@@ -271,7 +246,6 @@
         flex-direction: column;
         justify-content: left;
         align-items: flex-start;
-        /* background-color: grey; */
         margin: 5px;
         width: 250px;
     }
@@ -282,7 +256,6 @@
     .emailico-container{
         margin: 5px;
         width: 60px;
-        /* background-color: gold; */
     }
     
     .name-name,
@@ -305,6 +278,7 @@
         height: 500px;
         width: 400px;
     }
+
     .contact-title{
         display: flex;
         flex-direction: column;
@@ -329,15 +303,13 @@
 }
 
 @media screen and (max-width: 960px){
-
     .contact-page-container{
-        display: flex;
-        
+        display: flex;   
     }
+
     .contact-page-body-container{
         width: 580px;
         margin-left: 25px;
-
     }
 
     .contact-first-container{
@@ -345,7 +317,6 @@
         height: 380px;
         margin-bottom: 90px;
     }
-
 }
 
 @media screen and (max-width: 960px){
@@ -419,7 +390,6 @@
 }
 
 @media screen and (max-width:720px){
-
     .contact-page-container{
         display: flex;
         flex-direction: column;
@@ -484,8 +454,7 @@
 @media screen and (max-width: 590px){
     .contact-page-container{
         display: flex;
-        flex-direction: column;
-       
+        flex-direction: column;   
     }
 
     .contact-page-body-container{
@@ -520,7 +489,6 @@
         width: 320px;
         margin: 5px;
     }
-
 }
 
 @media screen and (max-width: 460px){
