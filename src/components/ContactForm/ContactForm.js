@@ -35,6 +35,7 @@ class ContactForm extends Component {
       },
     };
   }
+
   toastifySuccess() {
     toast.success("Message sent!", {
       position: "bottom-right",
@@ -46,6 +47,7 @@ class ContactForm extends Component {
       className: "submit-feedback success",
     });
   }
+
   toastifyFail() {
     toast.error("Message failed to send!", {
       position: "bottom-right",
@@ -57,6 +59,7 @@ class ContactForm extends Component {
       className: "submit-feedback fail",
     });
   }
+
   handleSubmit = (e) => {
     e.preventDefault();
     if (formValid(this.state)) {
@@ -87,6 +90,7 @@ class ContactForm extends Component {
       this.toastifyFail();
     }
   };
+
   resetForm() {
     this.setState({
       name: "",
@@ -95,7 +99,7 @@ class ContactForm extends Component {
       message: "",
     });
   }
-
+  
   handleChange = (e) => {
     e.preventDefault();
     const { name, value } = e.target;

@@ -25,8 +25,7 @@
 .about-title {
     font-size: 40px;
     margin: 10px;
-    margin-left: 280px;
-    
+    margin-left: 280px;  
 }
 
 .about-content-container{
@@ -91,7 +90,6 @@
 .about-outside-text{
     text-align: justify;
     margin: 10px;
-
 }
 
 .about-button-container{
@@ -99,8 +97,6 @@
     height: 80px;
     margin-left: 25px; 
 }
-
-
 
 .about-button{
     width: 150px;
@@ -113,16 +109,13 @@
     font-size: 15px;
     font-weight: 600;
 } 
-
  
 @media screen and (max-width: 1200px){
-
     .about-page-body-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center; 
-       
+        align-items: center;   
     }
 
     .about-title{
@@ -136,9 +129,7 @@
     }
 
     .about-foto-container{
-
         width: 300px;
-
     }
 
     .about-content-container{
@@ -155,17 +146,14 @@
         justify-content: center;
         align-items: center;
     }
-
 }
 
 @media screen and (max-width: 1150px){
-
     .about-page-body-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center; 
-       
+        align-items: center;   
     }
 
     .about-title{
@@ -179,9 +167,7 @@
     }
 
     .about-foto-container{
-
         width: 300px;
-
     }
 
     .about-content-container{
@@ -191,17 +177,14 @@
         align-items: center;
         width: 700px;
         height: 500px; 
-        /* margin: 20px; */
     }
 
     .about-text-container{
         width: 600px;
     }
-
 }
 
 @media screen and (max-width:1040px){
-
     .about-content-container{
         display: flex;
         flex-direction: column;
@@ -209,20 +192,16 @@
         align-items: center;
         width: 500px;
         height: 500px; 
-        /* margin: 20px; */
     }
-
 }
 
 @media screen and (max-width:930px){
-
     .about-page-body-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center; 
-        width: 700px;
-       
+        width: 700px;  
     }
 
     .about-title{
@@ -237,9 +216,7 @@
     }
 
     .about-foto-container{
-
         width: 300px;
-
     }
 
     .about-content-container{
@@ -249,26 +226,20 @@
         align-items: center;
         width: 400px;
         height: 500px; 
-        /* margin: 20px; */
     }
 
     .about-text-container{
         width: 600px;
     }
-
 }
 
 @media screen and (max-width:900px){
-
-
-
     .about-page-body-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center; 
-        width: 500px;
-       
+        width: 500px;   
     }
 
     .about-title{
@@ -283,9 +254,7 @@
     }
 
     .about-foto-container{
-
         width: 300px;
-
     }
 
     .about-content-container{
@@ -294,28 +263,21 @@
         justify-content: center;
         align-items: center;
         width: 500px;
-        height: 500px; 
-      
-       
+        height: 500px;   
     }
 
     .about-text-container{
         width: 500px;
     }
-
 }
 
 @media screen and (max-width:810px){
-
-
-
     .about-page-body-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center; 
-        width: 500px;
-       
+        width: 500px;   
     }
 
     .about-title{
@@ -325,15 +287,10 @@
 
     .about-me-foto{
         display: none;
-        /* margin: 0px;
-        width: 90px;
-        height: 80px; */
     }
 
     .about-foto-container{
-
         width: 200px;
-
     }
 
     .about-content-container{
@@ -342,31 +299,25 @@
         justify-content: center;
         align-items: center;
         width: 500px;
-        height: 500px; 
-      
-       
+        height: 500px;   
     }
 
     .about-text-container{
         width: 400px;
     }
-
 }
 
 @media screen and (max-width:780px){
-
     .about-page-body-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center; 
         width: 400px;
-
     }
 }
 
 @media screen and (max-width:720px){
-
     .about-page-container{
         display: flex;
         flex-direction: column;
@@ -380,30 +331,23 @@
         margin-top: 60px;
         width: 680px;
         height: 500px;
-
     }
 
     .about-title-container{
         margin: 0px;
-        height: 50px;
-       
+        height: 50px;    
     }
 
-    .about-title-text{
-        
+    .about-title-text{    
         width: 300px;
     }
 
-  
-
     .about-first-description{
         justify-content: center;
-        align-items: center;
-       
+        align-items: center;   
     }
 
-    .about-text-container{
-        
+    .about-text-container{    
         width: 700px;
     }
 
@@ -415,7 +359,6 @@
 
     .about-foto-container{
         margin: 0px;
-
     }
 
     .about-me-foto{
@@ -427,7 +370,6 @@
 }
 
 @media screen and (max-width:690px){
-
     .about-page-body-container{
         display: flex;
         flex-direction: column;
@@ -458,11 +400,9 @@
     .about-foto-container{
         margin-left: 50px;
     }
-
 }
 
 @media screen and (max-width:630px){
-
     .about-page-body-container{
         display: flex;
         flex-direction: column;
@@ -482,7 +422,6 @@
     }
 
     .about-text-container{
-
         margin-left: 150px;
         width: 450px;
         height: 380px;
@@ -496,12 +435,9 @@
     .about-title-container{
         margin-left: 90px;
     }
-
-
 }
 
 @media screen and (max-width:540px){
-
     .about-page-body-container{
         display: flex;
         flex-direction: column;
@@ -513,7 +449,6 @@
     }
 
     .about-text-container{
-
         margin-left: 150px;
         width: 400px;
         height: 350px;
@@ -534,11 +469,9 @@
     .about-button-container{
         margin-bottom: 50px;
     }
-
 }
 
 @media screen and (max-width:500px){
-
     .about-foto-container{
         display: none;
     }
@@ -555,12 +488,9 @@
     .about-title-container{
         margin-bottom: 40px;
     }
-
 }
 
 @media screen and (max-width:430px){
-
-
     .about-page-body-container{
         display: flex;
         flex-direction: column;
@@ -583,10 +513,7 @@
     .about-second-description{
         margin-left: 30px;
         margin-top: 0px;
-
     }
-
-
 }
 
 @media screen and (max-width:380px){
@@ -607,7 +534,6 @@
     .about-second-description{
         margin-left: 60px;
         margin-top: 0px;
-
     }
 
     .about-title-container{
@@ -633,8 +559,7 @@
 
     .about-second-description{
         margin-left: 90px;
-        margin-top: 0px;
-
+        margin-top: 0px
     }
 
     .about-title-container{
@@ -644,5 +569,4 @@
     .about-button-container{
         margin-left: 70px;
     }
-
 }

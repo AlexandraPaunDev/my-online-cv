@@ -5,16 +5,7 @@ import MyPhoto from './img/MyPhoto.jpeg'
 import facebook from './img/facebook.png';
 import instagram from './img/instagram.png';
 import github from './img/github.png';
-import linkedin from './img/linkedin.png';
-// import home from './img/home.png';
-// import about from './img/about.png';
-// import skills from './img/skills.png';
-// import portfolio from './img/portfolio.png';
-// import contact from './img/contact.png';
-// import {Link} from 'react-router-dom';
-// import ReactDOM from 'react-dom';
-
-  
+import linkedin from './img/linkedin.png';  
 
 export function HomePage(){
     return ( 
@@ -29,8 +20,6 @@ export function HomePage(){
                     <div className="home-page-my-name">Alexandra Paun </div>
                     <div className="home-page-description">I'm a Web Developer</div>
                 </div>
-                 
-                
                 <div className="social-media-container">
                     <a href="https://www.facebook.com/liss.alehandra" target="_blank" rel="noopener noreferrer">           
                         <img src={facebook} alt="facebook" className="facebook-logo"></img>
@@ -47,6 +36,5 @@ export function HomePage(){
                 </div>
             </div>
         </div>
-   
-   );
+    );
 }

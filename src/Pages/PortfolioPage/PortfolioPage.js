@@ -16,26 +16,20 @@ export function PortfolioPage(){
                         <img src={ratedmovies} className="first-p" alt="foto"></img> 
                         <a href="https://github.com/AlexandraPaunDev" target="_blank" rel="noopener noreferrer">
                             <button className="photo-button">Check my Project</button>
-                        </a>
-                          
+                        </a>                         
                     </div>
                     <div className="photo-2">
                         <img src={moviedetails} className="second-p" alt="foto"></img>
                         <a href="https://github.com/AlexandraPaunDev" target="_blank" rel="noopener noreferrer">
                             <button className="photo-button">Check my Project</button>
                         </a>
-                        
-
                     </div>
                     <div className="photo-3">
                         <img src={allmovies} className="third-p" alt="foto"></img>
                         <a href="https://github.com/AlexandraPaunDev" target="_blank" rel="noopener noreferrer">
                             <button className="photo-button">Check my Project</button>
-                        </a>
-                        
-                        
+                        </a>                      
                     </div>
-
                 </div>
             </div>
         </div>

@@ -2,11 +2,10 @@ import React from 'react';
 import ContactForm from '../../components/ContactForm/ContactForm';
 
 import { NavPanel } from '../../components/NavPanel/NavPanel';
- import name from "./img/name.png"
- import address from "./img/address.png"
- import phone from "./img/phone.png"
- import email from "./img/email.png"
- 
+import name from "./img/name.png"
+import address from "./img/address.png"
+import phone from "./img/phone.png"
+import email from "./img/email.png"
 import './ContactPage.css';
 
 export function ContactPage(){
@@ -24,7 +23,6 @@ export function ContactPage(){
                             <p className="my-name">Alexandra Paun</p>
                         </div> 
                     </div>
-
                     <div className="contact-address-container">
                         <div className="addressico-container">
                             <img src={address} className="contact-addressico" alt="address"></img>
@@ -34,7 +32,6 @@ export function ContactPage(){
                             <p className="my-address">Cluj-Napoca, Romania</p>
                         </div>
                     </div>
-
                     <div className="contact-phone-container">
                         <div className="phoneico-container">
                             <img src={phone} className="contact-phoneico" alt="phone"></img>
@@ -44,7 +41,6 @@ export function ContactPage(){
                             <p className="my-phone">+40741514215</p>
                         </div> 
                     </div> 
-
                     <div className="contact-email-container"> 
                         <div className="emailico-container">
                             <img src={email} className="contact-emailico" alt="email"></img>
@@ -54,7 +50,6 @@ export function ContactPage(){
                             <p className="my-email">alexandrapaun14@gmail.com</p>
                         </div> 
                     </div>
-
                 </div>
                 <div className="contact-second-container">
                     <div className="contact-title "><b>Get In Touch</b>

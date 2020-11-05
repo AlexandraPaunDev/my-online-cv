@@ -1,7 +1,4 @@
 import React from 'react';
-// import { ProgressBar } from './ProgressBar/ProgressBar';
-// import { ProgressBar } from 'react-toastify/dist/components';
-// import { ProgressBar } from 'react-toastify/dist/components';
 import { NavPanel } from '../../components/NavPanel/NavPanel';
 import html from './img/html.png';
 import css from './img/css.png';
@@ -26,9 +23,7 @@ export function SkillsPage(){
                         <p className="p4"><b>GIT:</b> learned the principles and basic commands</p>
                         <p className="p5"><b>React JS:</b> how modern JS applications work, React components, props, state, <b>JSX</b></p>
                         <p className="p6"><b>ISTQB Foundation Level:</b>Fundamentals of Testing </p>
-                    </div>
-                    
-                    
+                    </div>                   
                 </div>
                 <div className="my-skills-container">
                     <div className="title-container">
@@ -48,8 +43,7 @@ export function SkillsPage(){
                         <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
                             <img src={react} className="react-icon" alt="react"></img>
                         </a>
-                    </div>
-                    
+                    </div>    
                 </div>
             </div>
         </div>
